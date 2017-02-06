@@ -1,0 +1,34 @@
+body {
+    background-color: #7DF1C4;
+    width: 800px;
+}
+
+h1 {
+    background-color: #F6FF70;
+}
+
+h2 {
+    background-color: cornflowerblue
+}
+
+h3 {
+    background-color: beige;
+}
+
+p {
+    background-color: azure;
+}
+
+figcaption {
+    font-style: italic;
+    color: rgb(100,100,100);
+}
+
+figure {
+    width: 600px;
+    margin: auto
+}
+
+img {
+    width: 600px;
+}
