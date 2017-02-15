@@ -1,0 +1,28 @@
+body {
+    background-image: url(images/farmbackground.jpg);
+    background-color: bisque;
+    background-repeat: no-repeat;
+}
+
+.thefarm {
+    margin-top: 533px;
+    height: 400px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+.thefarm img {
+    margin-right: 2100px;
+}
+
+.thefarmtext {
+    font-weight: bold;
+    font-size: 40px;
+    color:firebrick;
+}
+
+a {
+    color: darkkhaki;
+    text-decoration: underline;
+}
