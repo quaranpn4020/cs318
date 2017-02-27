@@ -1,0 +1,55 @@
+#bradford {
+    background-image: url(http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/13197.png&w=350&h=254);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(50,50,50);
+}
+
+#hunter {
+    background-image: url(http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2976560.png&w=350&h=254);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(50,50,50);
+}
+
+#diggs {
+    background-image: url(http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2976212.png&w=350&h=254);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(50,50,50);
+}
+
+#rhodes {
+    background-image: url(http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/15810.png&w=350&h=254);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(50,50,50);
+}
+
+.photo {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 20px;
+    box-shadow: 5px 10px 10px rgba(20,20,20,.7);
+    position: relative;
+}
+
+.photo:hover {
+    box-shadow: 3px 5px 5px rgba(10,10,10,.7);
+    left: 5px;
+    top: 5px;
+}
+
+.name {
+    font-size: 2em;
+    font-family: sans-serif;
+    color: gold;
+    text-shadow: 2px 3px 3px black;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -10px;
+    text-align: center;
+}
