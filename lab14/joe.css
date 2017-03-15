@@ -1,0 +1,22 @@
+body {
+    background-color: bisque;
+}
+
+.container {
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+    background-image: url(images/maze.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#ball {
+    position: relative;
+    left: 50px;
+    top: 0px;
+    background-image: url(images/ball.png);
+    background-size: 100%;
+    width: 25px;
+    height: 25px;
+}
