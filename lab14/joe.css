@@ -36,7 +36,10 @@ body {
 
 @media (max-width: 800px) {
     #resetButton {
+        width: 100%;
+        text-align: center;
         float: none;
+        margin-bottom: 7px;
     }
     #ball {
         background-image: url(images/basketball.gif);
