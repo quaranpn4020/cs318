@@ -1,4 +1,4 @@
-function testFunction(event) {
+function moveBall(event) {
     var keypressed = event.which || event.keyCode;
     var whichkey = String.fromCharCode(keypressed);
     
@@ -30,7 +30,11 @@ function testFunction(event) {
         var leftval = parseInt(left, 10);
         var leftnew = leftval - 10;
         ball.style.left = leftnew + "px";
-    }
-    
-    
+    }   
+}
+
+function resetBall() {
+    var ball = document.getElementById("ball");
+    ball.style.left = "50px"
+    ball.style.top = "0px"
 }

@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    width: 50%;
+    width: 700px;
     height: 100vh;
     margin: auto;
     background-image: url(images/maze.png);
@@ -17,6 +17,28 @@ body {
     top: 0px;
     background-image: url(images/ball.png);
     background-size: 100%;
-    width: 25px;
-    height: 25px;
+    background-repeat: no-repeat;
+    width: 33px;
+    height: 33px;
+}
+
+#resetButton {
+    position: relative;
+    float: left;
+    width: 50px;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+#resetButton:hover {
+    background-color: gray;
+}
+
+@media (max-width: 800px) {
+    #resetButton {
+        float: none;
+    }
+    #ball {
+        background-image: url(images/basketball.gif);
+    }
 }
