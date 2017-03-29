@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+}
+
+h1, h2 {
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+.colorBox {
+    width: 3em;
+    height: .75em;
+    display: inline-block;
+}
+
+#red {
+    background-color: red;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#shapesContainer {
+    margin-left: 1em;
+}
+
+#whiteSquare {
+    width: 85px;
+    height: 85px;
+    background-color: white;
+    margin-bottom: .75em;
+}
+
+#whiteCircle {
+    width: 85px;
+    height: 85px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+ol li {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.frame {
+    display: inline-block;
+    margin-left: 1em;
+    width: 120px;
+    height: 120px;
+    border-width: 15px;
+    border-color: #303030;
+    border-style: solid;
+}
+
+.left {
+    border-left-color: white;
+}
+
+.right {
+    border-right-color: white;
+}
+
+.top {
+    border-top-color: white;
+}
+
+.bottom {
+    border-bottom-color: white;
+}
+
+
+
+
+
+
+
+
