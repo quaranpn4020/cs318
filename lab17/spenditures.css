@@ -96,6 +96,10 @@ nav li {
     background-color: lightgrey;
 }
 
+header {
+    position: relative;
+}
+
 header div {
     position: absolute;
     top: 0;
@@ -106,8 +110,20 @@ header div {
     font-size: 2em;
     color: white;
     height: 100%;
+    width: 57px;
     display: none;
+    text-align: center;
 }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    margin-bottom: 0;
+}
+
 
 @media (max-width: 40em) {
     nav {
@@ -118,4 +134,16 @@ header div {
         display: block;
     }
     
+    .label ul {
+        left: auto;
+        right: 0;
+        top: 100%;
+        width: 250px;
+        text-align: left;
+        font-size: 20pt;
+    }
+    
+    .label a {
+        margin-left: 10px;
+    }
 }

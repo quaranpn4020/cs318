@@ -1,0 +1,64 @@
+body {
+    color: white;
+}
+
+#tabparent {
+    position: relative;
+    display: inline-block;
+}
+
+.tabbutton {
+    display: inline-block;
+    background-color: #999999;
+    height: 50px;
+    width: 200px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    outline: none;
+}
+
+.tabbutton:hover {
+    cursor: pointer;
+}
+
+.tabbutton:focus {
+    background-color: #252525; 
+}
+
+#tabA {
+}
+
+#tabB {
+}
+
+#tabC {
+}
+
+.tabview {
+    position: absolute;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    top: 100%;
+    left: 0;
+    height: 200%;
+    width: 100%;
+    background-color: #252525;
+    display: none;
+}
+
+#tabview0 {
+    background-color: #999999;
+    display: block;
+}
+
+#tabA:focus ~ #tabview1 {
+    display: block;
+}
+
+#tabB:focus ~ #tabview2 {
+    display: block;
+}
+
+#tabC:focus ~ #tabview3 {
+    display: block;
+}
