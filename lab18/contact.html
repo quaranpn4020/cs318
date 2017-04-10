@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="contact.css" rel="stylesheet">
+</head>
+<body>
+    <form action="https://formspree.io/quaranpn4020@uwec.edu"
+          method="POST" name="send_email">
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td>
+                    <input type="text" name="name">
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <input type="email" name="_replyto">
+                </td>
+            </tr>
+            <tr>
+                <td>Subject:</td>
+                <td>
+                    <input type="text" name="_subject">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea name="emailtext" placeholder="Whats on your mind?"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Send" id="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
