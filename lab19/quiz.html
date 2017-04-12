@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="quiz.css" rel="stylesheet">
+</head>
+<body>
+    <form  name="Quiz" action="https://formspree.io/quaranpn4020@uwec.edu"
+      method="POST">
+        <h1>Quiz</h1>
+        <ol>
+            <li>
+                <label>How many siblings do you have?<br>
+                    <label><input name="siblings" type="radio" value="one">One</label><br>
+                    <label><input name="siblings" type="radio" value="two">Two</label><br>
+                    <label><input name="siblings" type="radio" value="three">Three</label><br>
+                    <label><input name="siblings" type="radio" value="fourplus">Four +</label><br>
+                </label>
+            </li>
+            <li>
+                <label>Sibling genders<br>
+                    <label><input name="genders" type="checkbox" value="bro">Brother</label><br>
+                    <label><input name="genders" type="checkbox" value="sis">Sister</label><br>
+                </label>
+            </li>
+            <li>
+                <label>Fill in the blank</label><br>
+                <label>I grew up in <input name="hometown" type="text">.</label>
+            </li>
+            <li>
+                <label>Describe your favorite family vacation.</label><br>
+                <textarea name="vacation" rows="5" cols="30"></textarea><br>
+            </li>
+            <li>
+                <label>You have a dog</label><br>
+                <label><input name="dog" type="radio" value="y">Yes</label><br>
+                <label><input name="dog" type="radio" value="n">No</label><br>
+            </li>
+            
+            <input type="submit" value="Submit">
+
+        </ol> 
+    </form>
+</body>
+</html>

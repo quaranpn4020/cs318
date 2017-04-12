@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    border-radius: 10px;
+    background-color: skyblue;
+    padding: 20px;
+    width: 500px;
+}
+
+label {
+    float: left;
+    width: 150px;
+    clear: both;
+    margin-left: 30px;
+    margin-right: 5px;
+    text-align: right;
+}
+
+option {
+
+}
+
+
+input, select {
+    width: 270px;
+}
+
+input:nth-of-type(2) {
+    width: auto;
+}
+
+input:nth-of-type(4) {
+    width: auto;
+    position: relative;
+    left: 180px;
+}
