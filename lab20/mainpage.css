@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    background-image: url(images/neon_lights_glowing_changing_color_annoying.gif)
+}
+
+#widget {
+    color: yellow;
+    position: relative;
+    width: 400px;
+    height: 100px;
+    background-image: url(images/Chris_Johnson_2011.jpg);
+    padding: 20px;
+}
