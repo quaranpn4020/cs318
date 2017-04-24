@@ -42,7 +42,7 @@ header h1 {
     font-weight: 100;
     font-family: Cinzel;
     font-size: 2.5em;
-    background-color: rgba(0, 0, 0, .8)
+    background: linear-gradient(to right, rgba(0,0,0,.05), rgba(0,0,0,.5));
 }
 
 
@@ -50,7 +50,7 @@ header h1 {
 /*Navigation bar*/
 
 nav {
-    margin-left: 5%;
+    margin-left: 15%;
     width: 50%;
     text-align: center;
     user-select: none;
@@ -64,6 +64,10 @@ nav {
     position: relative;
     top: 30px;
     margin-bottom: 40px; 
+}
+
+nav ul {
+    padding-left: 0;
 }
 
 nav li {
@@ -104,6 +108,8 @@ main {
 }
 
 .contentWrapper {
+    top: 100px;
+    position: absolute;
     border: solid 2px grey;
     background: linear-gradient(-90deg, rgb(10,5,3), rgb(40,20,15), rgb(20, 10, 7));
     width: 70%;
@@ -113,11 +119,15 @@ main {
 
 .contentWrapper h1 {
     margin: 10px;
+    font-weight: 100;
+    font-family: Dynalight;
 }
 
 #aboutMePhoto {
+    border: 2px white solid;
+    width: 50%;
     float: left;
-    padding: 20px;
+    margin: 20px;
 }
 
 .galleryContainer {
@@ -126,7 +136,8 @@ main {
 
 .galleryContainer img {
     width: 20%;
-    border: 2px white solid;
+    border: 4px #3D3227 solid;
+    box-shadow: 5px 5px 5px black;
     margin: 2%;
 }
 
@@ -145,6 +156,58 @@ main {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 1255px) {
+    header h1 {
+        float:left;
+        clear: both;
+        font-size: 1.5em;
+        top: 0;
+        width: 100%;
+        height: 10%;
+    }
     
+    p {
+        font-size: .7em;
+    }
+    
+    .galleryContainer {
+        width: 100%;
+    }
+    
+    .galleryContainer img {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    
+    #aboutMePhoto {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    
+    .navBar {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        width: 30%;
+        top: 100px;
+        height: 50%;
+    }
+    
+    nav ul li {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: block;
+    }
+}
+
+@media (max-width: 445px) {
+    header h1 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
 }
