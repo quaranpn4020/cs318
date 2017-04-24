@@ -76,8 +76,8 @@ nav a {
     color: white;
     padding: 10px 20px;
     margin: 5px;
-    border-bottom: black 3px solid;
-    border-top: black 3px solid;
+    border-bottom: black 1px solid;
+    border-top: black 1px solid;
     border-style: none;
     
     /*Transition*/
@@ -146,7 +146,5 @@ main {
 
 
 @media (max-width: 800px) {
-    body {
-        background-color: blue;
-    }
+    
 }
