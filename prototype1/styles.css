@@ -108,13 +108,17 @@ main {
 }
 
 .contentWrapper {
-    top: 100px;
+    top: 270px;
     position: absolute;
     border: solid 2px grey;
     background: linear-gradient(-90deg, rgb(10,5,3), rgb(40,20,15), rgb(20, 10, 7));
     width: 70%;
-    margin: auto;
+    margin: 20px;
     padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
 .contentWrapper h1 {
@@ -205,9 +209,43 @@ main {
     }
 }
 
+@media (max-width: 1265px) {
+    .navBar {
+        position: absolute;
+        right: 0px;
+        top: 100px;
+        width: 150px;
+    }
+}
+
 @media (max-width: 445px) {
     header h1 {
         padding-top: 5px;
         padding-bottom: 5px;
     }
+}
+
+@media (max-width: 583px) {
+    .contentWrapper {
+        top: 200px;
+    }
+    
+    .navBar {
+        width: 100%;
+    }
+    
+    nav li {
+        display: inline;
+    }
+    
+    .contentWrapper {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        
+        width: 85%;
+    }
+
 }
