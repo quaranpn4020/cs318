@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Cinzel;
 }
 
 #slideshow {
@@ -24,10 +25,3 @@ body {
     background-position: center;
 }
 
-#first {
-    background-image: url(images/test1.jpg);
-}
-
-#second {
-    background-image: url(images/test2.jpg);
-}
