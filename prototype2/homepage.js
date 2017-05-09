@@ -1,6 +1,6 @@
-var changeTime = 4000;
-var waitTime = 3000;
-var imagesInSlide = 4;
+var changeTime = 3000;
+var waitTime = 8000;
+var imagesInSlide = 5;
 var current = 0;
 
 $(document).ready(

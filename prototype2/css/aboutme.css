@@ -1,0 +1,18 @@
+.container {
+    padding: 10px;
+    color: white;
+    height: auto;
+}
+
+.container img {
+    width: 40%;
+    float: left;
+    margin: 2%;
+    border: grey inset;
+}
+
+@media (max-width: 660px) {
+    .container img {
+        width: 96%;
+    }
+}

@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Cinzel;
+    background-color: white;
+}
+
+h1 {
+    margin: 20px;
+    padding: 5px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.container h1 {
+    font-family: "Dancing Script";
+}
+
+.container {
+    font-size: .9em
+}
+
+.container {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: linear-gradient(to right, rgb(20,20,20), black, rgb(20,20,20));
+}
+
+#logoDiv {
+    font-family: Cinzel;
+    position: absolute;
+    height: 150px;
+    width: 100%;
+}
+
+/* Navigation bar */
+
+#navBar {
+    position: absolute;
+    width: 100%;
+    font-size: 1em;
+    top: 140px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    font-family: Cinzel;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    margin: 5px;
+    border-bottom: white 1px solid;
+    border-top: white 1px solid;
+    border-style: none;
+    
+    /*Transition*/
+    transition-property: border-color;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+}
+
+a:hover {
+    font-weight: 800;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+}
+
+@media (max-width: 740px) {
+    .container {
+        right: auto;
+        width: 70%;
+    }
+    
+    ul {
+        top: 45px;
+        position: absolute;
+        width: 30%;
+        right: 0;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    
+    li {
+        display: block;
+        width: 100%;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 400px) {
+    
+    .container {
+        width: 100%;    
+    }
+    
+    ul {
+        top: 15px;
+        width: 100%
+    }
+    
+    li {
+        font-size: .7em;
+        display: inline;
+        padding: 0;
+        margin: 0;
+        max-width: 10px;
+    }
+    
+    a {
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+
+
+
+
+
+
+

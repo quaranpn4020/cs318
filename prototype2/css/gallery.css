@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+}
+
+
+
+#fadeoutBG {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 500;
+}
+
+#hiddendiv {
+    width: 80
+}

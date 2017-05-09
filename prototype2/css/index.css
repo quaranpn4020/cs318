@@ -1,0 +1,25 @@
+.slide {
+    position: inherit;
+    width: 95%;
+    height: 95%;
+    max-height: 100%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container {
+    height: 700px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        height: 300px;
+    }
+}
