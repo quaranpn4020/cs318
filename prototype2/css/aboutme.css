@@ -1,6 +1,5 @@
 .container {
     padding: 10px;
-    color: white;
     height: auto;
 }
 
@@ -8,7 +7,7 @@
     width: 40%;
     float: left;
     margin: 2%;
-    border: grey inset;
+    border: solid 3px #42280E;
 }
 
 @media (max-width: 660px) {

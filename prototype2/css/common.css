@@ -13,6 +13,11 @@ h1 {
     padding: 5px;
     font-weight: 100;
     text-align: center;
+    user-select: none;
+}
+
+h1:hover {
+    cursor: default;
 }
 
 .container h1 {
@@ -20,10 +25,8 @@ h1 {
 }
 
 .container {
-    font-size: .9em
-}
-
-.container {
+    color: black;
+    font-size: .9em;
     position: absolute;
     width: 80%;
     height: 80%;
@@ -31,7 +34,9 @@ h1 {
     left: 0;
     right: 0;
     margin: auto;
-    background: linear-gradient(to right, rgb(20,20,20), black, rgb(20,20,20));
+    border: 3px rgba(0,0,0,.25) solid;
+    background-color: rgba(0,0,0,.2);
+    box-shadow: 3px 3px 3px rgba(0,0,0,.4);
 }
 
 #logoDiv {
