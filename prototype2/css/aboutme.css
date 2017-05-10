@@ -1,13 +1,13 @@
 .container {
     padding: 10px;
     height: auto;
+    margin-bottom: 30px;
 }
 
 .container img {
     width: 40%;
     float: left;
     margin: 2%;
-    //border: solid 3px #42280E;
 }
 
 @media (max-width: 660px) {
