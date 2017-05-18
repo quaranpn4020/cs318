@@ -1,0 +1,16 @@
+.container {
+    padding: 10px;
+    height: auto;
+}
+
+.container img {
+    float: left;
+    width: 40%;
+    margin: 2%;
+}
+
+@media (max-width: 660px) {
+    .container img {
+        width: 96%;
+    }
+}
